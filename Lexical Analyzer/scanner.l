@@ -1,14 +1,9 @@
-/* 
- * File: scanner.l
- * Complete Lexical Analyzer for Swift Subset
- */
-
-%{
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 
 enum {
+    
     // Keywords
     LET = 258, VAR, FUNC, RETURN, IF, ELSE, FOR, IN, WHILE, REPEAT, SWITCH, CASE, DEFAULT, STRUCT,
     PRINT,
