@@ -226,7 +226,7 @@ int main(int argc, char **argv) {
 
 ---
 
-## ✅ Summary
+##  Summary
 
 A **Lex file (`.l`)** has 3 parts:
 
